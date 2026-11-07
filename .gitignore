@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and settings
+.env
+
+# Measurement data (keep only synthetic samples)
+*.db
+!**/sample_data/*.db
+
+# Licences, slides and other files that shouldn't be public
+*.lic
+*.pptx
+*.pdf
+
+# Editor and OS files
+.vscode/
+Thumbs.db
